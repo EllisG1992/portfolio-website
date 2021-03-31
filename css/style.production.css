@@ -13,16 +13,16 @@ Primary Color (Dark Green): #357b70;
 Secondary Color : #e0b354;
 */
 
-:root{ /*dark green*/ /*darker green*/ /*lighter green*/ /*yellow-brown */ /*dark gray*/ /*light gray*/ /* light orange */ /*orange */
+:root{ /*purple*/ /*darker green*/ /*lighter green*/ /*yellow-brown */ /*dark gray*/ /*light gray*/ /* light orange */ /*orange */
 }
 
 
 a{
-  color: #357b70;
+  color: #800080;
 }
 
 a:visited{
-  color: #05676e;
+  color: #fff;
 }
 
 a:hover, a:focus{
@@ -36,7 +36,7 @@ a:active{
 button{
   border: none;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: #800080;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -141,7 +141,7 @@ h3{
 
 /* start grid fallback*/
 .grid__item{
-  display: inline-bloack;
+  display: inline-block;
   width: 33%;
 }
 /* end gridfallback*/
@@ -204,13 +204,13 @@ h3{
   border: none;
   display: inline-block;
   font-family: inerit;
-  background-color: #357b70;
+  background-color: #800080;
   color: #fff;
   text-decoration: none;
   text-align: center;
   padding: 10px;
   border-radius: 3px;
-  border-bottom,: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0,0,0,0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
@@ -223,13 +223,13 @@ button{
   border: none;
   display: inline-block;
   font-family: inerit;
-  background-color: #357b70;
+  background-color: #800080;
   color: #fff;
   text-decoration: none;
   text-align: center;
   padding: 10px;
   border-radius: 3px;
-  border-bottom,: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0,0,0,0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
@@ -304,8 +304,8 @@ button:focus,
 }
 
 .cloud-front{
-  -webkit-animation: 30x cloud-move infinite alternate linear;
-          animation: 30x cloud-move infinite alternate linear;
+  -webkit-animation: 30px cloud-move infinite alternate linear;
+          animation: 30px cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-reverse{
@@ -333,4 +333,56 @@ button:focus,
 .cloud-back{
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.main-navigation{
+  background-color: #800080;
+
+}
+
+.navigation-list__item{
+  color: white;
+}
+
+#thesun{
+  width: 50px;
+  height: 50px;
+  -webkit-animation-name: sun-move;
+          animation-name: sun-move;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes sun-move{
+  0%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+  25%{-webkit-transform: translate(100px, 0px);transform: translate(100px, 0px);}
+  50%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+  75%{-webkit-transform: translate(-100px, 0px);transform: translate(-100px, 0px);}
+  100%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+}
+
+@keyframes sun-move{
+  0%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+  25%{-webkit-transform: translate(100px, 0px);transform: translate(100px, 0px);}
+  50%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+  75%{-webkit-transform: translate(-100px, 0px);transform: translate(-100px, 0px);}
+  100%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+}
+
+@keyframes color-change{
+  0% {color: #000; }
+  25% {color: green;}
+  50% {color: blue;}
+  75% {color: yellow;}
+  100% {color: purple;}
+}
+.profile{
+   -webkit-animation-name: color-change;
+           animation-name: color-change;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }

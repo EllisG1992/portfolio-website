@@ -7,7 +7,7 @@ Secondary Color : #e0b354;
 */
 
 :root{
-  --primary-color: #357b70; /*dark green*/
+  --primary-color: #800080; /*purple*/
   --primary-color-darker: #05676e; /*darker green*/
   --primary-color-lighter: #489c79; /*lighter green*/
   --white: #fff;
@@ -24,7 +24,7 @@ a{
 }
 
 a:visited{
-  color: var(--primary-color-darker);
+  color: var(--white);
 }
 
 a:hover, a:focus{
@@ -254,4 +254,42 @@ button:focus,
 
 .cloud-back{
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.main-navigation{
+  background-color: var(--primary-color);
+
+}
+
+.navigation-list__item{
+  color: white;
+}
+
+#thesun{
+  width: 50px;
+  height: 50px;
+  animation-name: sun-move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sun-move{
+  0%{transform: translate(0px, 0px);}
+  25%{transform: translate(100px, 0px);}
+  50%{transform: translate(0px, 0px);}
+  75%{transform: translate(-100px, 0px);}
+  100%{transform: translate(0px, 0px);}
+}
+
+@keyframes color-change{
+  0% {color: #000; }
+  25% {color: green;}
+  50% {color: blue;}
+  75% {color: yellow;}
+  100% {color: purple;}
+}
+.profile{
+   animation-name: color-change;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
