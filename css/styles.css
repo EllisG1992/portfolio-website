@@ -131,7 +131,7 @@ h3{
 
 /* start grid fallback*/
 .grid__item{
-  display: inline-bloack;
+  display: inline-block;
   width: 33%;
 }
 /* end gridfallback*/
@@ -193,7 +193,7 @@ h3{
   text-align: center;
   padding: 10px;
   border-radius: 3px;
-  border-bottom,: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0,0,0,0.3);
   transition: 0.2s opacity;
 }
 
@@ -240,7 +240,7 @@ button:focus,
 }
 
 .cloud-front{
-  animation: 30x cloud-move infinite alternate linear;
+  animation: 30px cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse{
