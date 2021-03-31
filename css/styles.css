@@ -34,7 +34,7 @@ a:hover, a:focus{
 a:active{
   color: var(--primary-color-lighter);
 }
-
+ 
 button{
   border: none;
   font-family: inherit;
