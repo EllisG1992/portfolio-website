@@ -326,7 +326,7 @@ button:focus,
   }
   to{
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+            transform: translate(100px, 48px); 
   }
 }
 
