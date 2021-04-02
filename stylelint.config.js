@@ -105,7 +105,7 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
-    "rule-empty-line-before": [ "always-multi-line", {
+    "rule-empty-line-before": [ "always-multi-line", { 
       except: ["first-nested"],
       ignore: ["after-comment"],
     } ],
@@ -129,4 +129,4 @@ module.exports = {
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
   },
-} 
+}
