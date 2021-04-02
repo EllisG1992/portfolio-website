@@ -258,8 +258,8 @@ button:focus,
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-.main-navigation{
-  background-color: var(--primary-color);
+/*.main-navigation{
+  background-color: var(--primary-color); */
 
 }
 
