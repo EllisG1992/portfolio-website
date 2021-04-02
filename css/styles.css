@@ -261,7 +261,6 @@ button:focus,
 /*.main-navigation{
   background-color: var(--primary-color); */
 
-}
 
 .navigation-list__item{
   color: white;
@@ -295,7 +294,7 @@ button:focus,
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
- 
+
 .navigation-list:lastchild{
   margin-right: 5%;
 }

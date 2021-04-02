@@ -329,7 +329,7 @@ button:focus,
   to{
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
-  } 
+  }
 }
 
 .cloud-back{
@@ -340,7 +340,7 @@ button:focus,
 /*.main-navigation{
   background-color: #800080;*/
 
-}
+
 
 .navigation-list__item{
   color: white;
